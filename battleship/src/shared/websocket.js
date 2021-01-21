@@ -12,7 +12,7 @@ class WebSocketClient {
 		this.onCloseListeners = [];
 		this.close = false;
 		this.reconnection = () => { };
-		this.wsp = new WebSocketAsPromised(process.env.REACT_APP_WS_URL + (process.env.PORT || 80) + process.env.REACT_APP_WS_PATH, {
+		this.wsp = new WebSocketAsPromised(process.env.REACT_APP_WS_URL + 80 + process.env.REACT_APP_WS_PATH, {
 			packMessage: data => JSON.stringify(data),
 			unpackMessage: data => JSON.parse(data),
 		});
