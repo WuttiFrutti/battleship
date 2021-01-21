@@ -1,0 +1,5 @@
+module.exports = {
+   PLACING_SHIPS:"PLACING_SHIPS",
+   IN_TURN: "IN_TURN",
+   GAME_ENDED: "GAME_ENDED"
+}

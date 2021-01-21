@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "workspaces": ["Server","battleship","shared"],
+    "scripts": {
+        "start": "npm --prefix battleship run build && node Server/server.js"
+    }
+}
