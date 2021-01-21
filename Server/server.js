@@ -3,7 +3,7 @@ const ws = require("ws")
 const { v4: uuidv4 } = require('uuid');
 const WebSockets = require("./websockets.js")
 const { reduce, initState, state, teams } = require("./reducer")
-const serve = require("staticServe.js");
+const serve = require("./staticServe.js");
 
 
 const wsServer = new ws.Server({
