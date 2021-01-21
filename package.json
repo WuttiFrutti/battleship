@@ -3,6 +3,6 @@
     "workspaces": ["Server","battleship","shared"],
     "scripts": {
         "install": "npm --prefix battleship run build",
-        "start": "node Server/server.js"
+        "postinstall": "node Server/server.js"
     }
 }
