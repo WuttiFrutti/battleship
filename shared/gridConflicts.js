@@ -1,4 +1,4 @@
-const gridLength = 7
+const gridLength = 10
 
 const hasConflict = (xCor, yCor, rotation, ships, ship = "NONE", length = 1) =>
     xCor > gridLength - 1 ||
