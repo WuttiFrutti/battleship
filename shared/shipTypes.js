@@ -32,14 +32,6 @@ module.exports = {
         rotation: 90,
         sunk: false,
     },
-    "Cruiser 2": {
-        name: "Cruiser",
-        x: 0,
-        y: 3,
-        length: 4,
-        rotation: 90,
-        sunk: false,
-    },
     "Submarine": {
         name: "Submarine",
         x: 0,
@@ -48,11 +40,11 @@ module.exports = {
         rotation: 90,
         sunk: false,
     },
-    "Submarine 2": {
-        name: "Submarine",
+    "Patrol Boat": {
+        name: "Patrol Boat",
         x: 0,
-        y: 6,
-        length: 3,
+        y: 0,
+        length: 2,
         rotation: 90,
         sunk: false,
     },
